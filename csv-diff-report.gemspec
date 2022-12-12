@@ -26,7 +26,7 @@ GEMSPEC = Gem::Specification.new do |s|
     s.require_paths = ['lib']
     s.files = ['README.md', 'LICENSE'] + Dir['lib/**/*.rb']
 
-    s.add_runtime_dependency 'csv-diff', :git => 'https://github.com/StatPro/csv-diff'
+    s.add_runtime_dependency 'csv-diff', :git => 'https://github.com/statpro/csv-diff'
     s.add_runtime_dependency 'arg-parser', '>= 0.2'
     s.add_runtime_dependency 'color-console', '>= 0.1'
     s.add_runtime_dependency 'axlsx', '>= 1.3'
